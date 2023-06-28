@@ -1,0 +1,131 @@
+/* CUSTOM STYLE TWEAKS TO BASE PROTOTYPR.AI CSS */
+
+body {
+    font-family:Montserrat;
+    background-color:#FFF;
+}
+
+#notification-msg-container {
+    flex-direction: row;
+    padding:0px;
+    background-color:#0f2036;
+}
+
+#save-this-copy {
+    text-align: center;
+    position: relative;
+    top: -9px;
+    margin-left: 2px;
+}
+
+#dashboard-container {
+    max-width: 1024px;
+}
+
+/* HERO SECTION */
+
+.hero-title {
+    font-size:64px;
+    letter-spacing: -2.5px;
+}
+
+.hero-description {
+    letter-spacing: -0.3px;
+    font-size:18px;
+    font-weight:100;
+}
+
+/** FOOTER **/
+
+footer {
+    font-size: 11px;
+    text-align: left;
+    display: flex;
+    width: 100%;
+    text-align: left;
+    margin-bottom:50px;
+    flex-direction:row !important;
+}
+
+footer > .flex-child {
+    width: 33%;
+}
+
+#company-name-footer {
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    font-size: 14px;
+}
+
+.footer-links, .footer-copy {
+    font-size: 13px;
+    color: #878787;
+    font-weight: 100;
+    letter-spacing: -0.3px;
+}
+
+#icon-list {
+    margin-top: 0px;
+    flex-direction: row;
+    padding:15px 0px;
+}
+
+.social-icons {
+    width: 24px !important;
+    margin: 5px 7px;
+    filter: grayscale(100%);
+}
+
+.footer-column-header {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+#made-w-ai-badge {
+    width: 100px;
+    margin-top: 20px;
+    border-radius:5px;
+}
+
+#your-company-logo {
+    height:32px;
+    margin-bottom:20px;
+}
+
+@media (max-width: 425px) {
+
+    #save-this-copy {
+        width: 54px;
+        left: 10px;
+    }
+
+    /* HERO SECTION */
+
+    .hero-title {
+        font-size:48px;
+        letter-spacing: -2.5px;
+    }
+
+    .hero-description {
+        letter-spacing: -0.3px;
+        font-size:16px;
+        font-weight:100;
+    }
+
+    #dashboard-container {
+        position: relative;
+        top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    footer {
+        flex-direction:column !important;
+    }
+
+    footer > .flex-child {
+        width: 100%;
+    }
+
+}
