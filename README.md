@@ -227,7 +227,7 @@ I’ve included a Procfile and some eventlet dependencies outlined in requiremen
 
 # References
 
-1. <a href="https://www.prototypr.ai" rel="dofollow">prorotypr.ai</a> - Used GPT-4 chat in prototypr.ai to generate first draft of this code, which was later edited. I also generated and edited landing page templates from prototypr.ai's landing page generator tool. 
+1. <a href="https://www.prototypr.ai" rel="dofollow">prototypr.ai</a> - Used GPT-4 chat in prototypr.ai to generate first draft of this code, which was later edited. I also generated and edited landing page templates from prototypr.ai's landing page generator tool. 
 
 2. <a href="https://support.google.com/analytics/">Google Analytics 4 Support Page</a>
 
