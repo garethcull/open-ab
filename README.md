@@ -171,7 +171,7 @@ If you need any help implementing Google Analytics 4, I do provide consulting in
 
 Now that everything is set up, let's talk about our reporting options. 
 
-I created an AB Testing report on <a href="https://www.prototypr.ai" rel="dofollow">prorotypr.ai</a> that automatically pulls this data and creates a report for you using the GA4 API. (Disclosure: I am the creator of <a href="https://www.prototypr.ai" rel="dofollow">prorotypr.ai</a>). 
+I created an AB Testing report on <a href="https://www.prototypr.ai" rel="dofollow">prototypr.ai</a> that automatically pulls this data and creates a report for you using the GA4 API. (Disclosure: I am the creator of <a href="https://www.prototypr.ai" rel="dofollow">prorotypr.ai</a>). 
 
 This report does all of the heavy lifting for you and even calculates experiment statistics using SciPy and has GPT-3.5 do some light analysis on the results! It's an experimental report, but it works really well.
 
