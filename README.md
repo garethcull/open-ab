@@ -16,7 +16,7 @@ open_ab is server side software that helps developers randomly split traffic on 
 
 ### How does open_ab work?
 
-The purpose of open_ab is to make it easy to distribute random page templates on flask routes in support of AB Testing. For any particular flask route, you simply create a list of html page templates that you want to randomize and set their respective weights of distribution. The list of randomize weights should sum up to 1, which represents 100% of traffic across all variations.
+The purpose of open_ab is to make it easy to randomly distribute page templates on flask routes in support of AB Testing. For any particular flask route, you simply create a list of html page templates that you want to randomize and set their respective weights of distribution. The list of randomize weights should sum up to 1, which represents 100% of traffic across all variations.
 
 Here's an example of the open_ab code working on a route called /open-ab:
 
